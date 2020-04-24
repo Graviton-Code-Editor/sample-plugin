@@ -11,6 +11,6 @@
 	},
 	"author": "Some human",
 	"devDependencies": {
-		"@gveditor/sdk": "^0.1.2"
+		"@gveditor/sdk": "^0.1.3"
 	}
 }
