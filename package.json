@@ -1,0 +1,16 @@
+{
+	"name": "sample-plugin",
+	"version": "1.0.0",
+	"description": "A Graviton plugin.",
+	"mainSrc": "src/index.js",
+	"mainDev": "dist/index.js",
+	"main": "index.js",
+	"scripts": {
+		"watch": "gvsdk --entry package.json --target plugin --mode dev",
+		"build": "gvsdk --entry package.json --target plugin --mode release"
+	},
+	"author": "Some human",
+	"devDependencies": {
+		"@gveditor/sdk": "^0.1.2"
+	}
+}
