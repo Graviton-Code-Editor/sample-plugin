@@ -1,6 +1,6 @@
 {
 	"name": "SamplePlugin",
-	"id":"sample-plugin",
+	"id": "sample-plugin",
 	"version": "1.0.0",
 	"description": "A Graviton plugin.",
 	"mainSrc": "src/index.js",

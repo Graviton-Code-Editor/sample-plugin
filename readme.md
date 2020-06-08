@@ -1,11 +1,29 @@
-This is a plugin template for Graviton Editor.
+## 🎨 Sample Plugin
+Sample plugin for [Graviton Editor](https://github.com/Graviton-Code-Editor/Graviton-App)
 
-Source code is located under /src
+### 📜 Usage
 
-### Usage:
+Clone the repository in your .graviton2/plugins:
+```shell
+git clone https://github.com/Graviton-Code-Editor/sample-plugin.git
+```
 
-When developing:
-`npm run watch`
+Go inside it:
+```shell
+cd sample-plugin
+```
 
-To make a build:
-`npm run build`
+Install the dependencies:
+```shell
+npm install
+```
+
+Run for development:
+```shell
+npm run watch
+```
+
+To make a build (optional):
+```shell
+npm run build
+```
